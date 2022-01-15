@@ -1,0 +1,1558 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+ol,
+ul {
+    list-style: none;
+}
+del {
+    text-decoration: line-through;
+}
+body {
+    font-family: GT-Eesti, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 500;
+}
+input,
+textarea,
+select {
+    font-family: GT-Eesti, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+.thumb {
+    display: block;
+}
+.thumb img {
+    display: block;
+    width: 100%;
+}
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: GT-Eesti, Arial;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.hidden {
+    display: none;
+}
+br.clear {
+    clear: both;
+    line-height: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+@font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+        url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+        url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+        url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: GT-Eesti;
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+        url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+::placeholder {
+    color: rgb(155, 155, 155);
+    opacity: 1;
+}
+#bg{
+    background: url(../images/header-background.jpg) no-repeat;
+    background-size: 84%;
+    background-position: right -5px top -79px;
+}
+header {
+    position: relative;
+    z-index: 3;
+}
+header div.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header div.logo {
+}
+header div.logo h1 {
+    width: 42%;
+}
+header div.logo h1 a {
+}
+header div.logo h1 a img {
+    width: 100%;
+    display: block;
+}
+header ul {
+    display: flex;
+    align-items: center;
+}
+header ul li {
+    margin-right: 36px;
+    width: 30px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+header ul li a {
+    color: white;
+}
+header ul li a:hover; {
+    color: black;
+}
+header ul li:last-child {
+    margin-right: 0px;
+    margin-left: -26px;
+}
+header ul li img {
+    width: 100%;
+    display: block;
+}
+header ul li:nth-child(6) {
+    margin-left: -15px;
+    filter: brightness(0) invert(1);
+    width: 3%;
+}
+header ul li:nth-child(7) {
+    margin-left: -24px;
+}
+header ul li.twitter {
+}
+#spotlight {
+}
+#spotlight section.spotlight-container {
+    display: flex;
+}
+#spotlight section.spotlight-container div.left {
+    z-index: 2;
+    /* margin: 136px 24px; */
+    padding-top: 94px;
+}
+#spotlight section.spotlight-container div.left h3 {
+    font-size: 59px;
+    font-weight: 600;
+    color: rgb(63, 194, 200);
+}
+#spotlight section.spotlight-container div.left h4 {
+    font-size: 59px;
+    font-weight: 600;
+    color: rgb(56, 56, 56);
+}
+#spotlight section.spotlight-container div.left p {
+    width: 59%;
+    margin-top: 10px;
+    color: rgb(56, 56, 56);
+}
+#spotlight section.spotlight-container div.left a.button {
+    background-color: rgb(84, 189, 218);
+    border: none;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 32px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+#spotlight section.spotlight-container div.left a.button:hover{
+	background-color: white;
+	border:  2px solid rgb(84, 189, 218) ;
+	color: rgb(84, 189, 218);
+}
+#spotlight section.spotlight-container div.bg-team {
+    position: absolute;
+    z-index: 0;
+    top: -37px;
+    left: 44px;
+    width: 98%;
+}
+#spotlight section.spotlight-container div.bg-team img {
+    display: block;
+    width: 100%;
+}
+#spotlight section.spotlight-container div.team {
+    width: 441px;
+    position: absolute;
+    z-index: 1;
+    right: 108px;
+    top: 145px;
+}
+#spotlight section.spotlight-container div.team img {
+    display: block;
+    width: 100%;
+}
+#trust {
+    padding-top: 125px;
+}
+#trust h4 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+#trust div.trust-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 73%;
+    border: 2px solid rgb(248, 252, 253);
+    padding: 35px;
+    background: rgb(248, 252, 253);
+}
+#trust div.trust-container div.logo1 {
+    margin-right: 20px;
+}
+#trust div.trust-container div.logo2 {
+    margin-right: 20px;
+}
+#trust div.trust-container div.logo3 {
+    margin-right: 20px;
+}
+#trust div.trust-container div.logo4 {
+    margin-right: 20px;
+}
+#mid {
+    padding-top: 50px;
+}
+#mid section.wrapper {
+}
+#mid section.wrapper div.business {
+}
+#mid section.wrapper div.business h4 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+#mid section.wrapper div.business p {
+    text-align: center;
+    font-size: 16px;
+    line-height: normal;
+    margin-top: 15px;
+}
+#mid section.wrapper div.boxs {
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+}
+#mid section.wrapper div.boxs div.left {
+    width: 612px;
+    height: 312px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-right: 85px;
+}
+#mid section.wrapper div.boxs div.left div.market {
+    width: 30%;
+    margin: 30px auto;
+}
+#mid section.wrapper div.boxs div.left div.market img {
+    display: block;
+    width: 100%;
+}
+#mid section.wrapper div.boxs div.left h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#mid section.wrapper div.boxs div.left p {
+    font-size: 16px;
+    text-align: center;
+    margin: 32px 11px;
+    width: 92%;
+}
+#mid section.wrapper div.boxs div.mid {
+    width: 612px;
+    height: 312px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-right: 85px;
+}
+#mid section.wrapper div.boxs div.mid div.opportunity {
+}
+#mid section.wrapper div.boxs div.mid div.opportunity div.opportunity {
+    width: 30%;
+    margin: 30px auto;
+}
+#mid section.wrapper div.boxs div.mid div.opportunity div.opportunity img {
+    display: block;
+    width: 100%;
+}
+#mid section.wrapper div.boxs div.mid div.opportunity h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#mid section.wrapper div.boxs div.mid div.opportunity p {
+    font-size: 16px;
+    text-align: center;
+    margin: 34px 20px;
+}
+#mid section.wrapper div.right {
+    width: 612px;
+    height: 312px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+#mid section.wrapper div.right div.action {
+    width: 30%;
+    margin: 30px auto;
+}
+#mid section.wrapper div.right div.action img {
+    display: block;
+    width: 100%;
+}
+#mid section.wrapper div.right h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#mid section.wrapper div.right p {
+    font-size: 16px;
+    text-align: center;
+    margin: 34px 20px;
+}
+#design {
+    padding-top: 79px;
+}
+#design section.wrapper {
+}
+#design section.wrapper div.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+#design section.wrapper div.top div.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#design section.wrapper div.top div.right h4 {
+    font-size: 44px;
+    width: 78%;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#design section.wrapper div.top div.right p {
+    margin-top: 15px;
+    width: 55%;
+}
+#design section.wrapper div.top div.right a.button {
+    background-color: rgb(84, 189, 218);
+    border: none;
+    color: white;
+    width: 21%;
+    padding: 13px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 32px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+#design section.wrapper div.top div.left {
+    width: 70%;
+}
+#design section.wrapper div.top div.left img {
+    display: block;
+    width: 100%;
+}
+#design section.wrapper div.down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#design section.wrapper div.down div.right {
+    width: 41%;
+}
+#design section.wrapper div.down div.right img {
+    display: block;
+    width: 100%;
+}
+#design section.wrapper div.down div.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 44%;
+}
+#design section.wrapper div.down div.left h4 {
+    font-size: 37px;
+    font-weight: bold;
+    width: 100%;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+#design section.wrapper div.down div.left p {width: 96%;}
+#design section.wrapper div.down div.left a.button {
+    background-color: rgb(84, 189, 218);
+    border: none;
+    color: white;
+    width: 33%;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 32px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+#pricing {
+    padding-bottom: 120px;
+}
+#pricing section.wrapper {
+}
+#pricing section.wrapper div.tittle {
+    padding-top: 55px;
+}
+#pricing section.wrapper div.tittle h4 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+#pricing section.wrapper div.tittle p {
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+}
+#pricing section.wrapper article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+#pricing section.wrapper article div.left-box {
+    width: 330px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+}
+#pricing section.wrapper article div.left-box h5 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 31px;
+}
+#pricing section.wrapper article div.left-box p {
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom: 21px;
+    text-transform: capitalize;
+}
+#pricing section.wrapper article div.left-box hr.line {
+    border-bottom: 1px solid black;
+    width: 180px;
+    margin: 0px auto;
+}
+#pricing section.wrapper article div.left-box div.price {
+    text-align: center;
+    color: #55bdde;
+    margin-top: 4px;
+}
+#pricing section.wrapper article div.left-box div.price span.dollar {
+    font-size: 36px;
+}
+#pricing section.wrapper article div.left-box div.price span.one {
+    font-size: 60px;
+    font-weight: bold;
+}
+#pricing section.wrapper article div.left-box div.price span.nine {
+    font-size: 70px;
+    font-weight: bold;
+}
+#pricing section.wrapper article div.left-box ul.media-list {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+}
+#pricing section.wrapper article div.left-box ul.media-list li.media {
+    display: flex;
+    justify-content: inherit;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+#pricing section.wrapper article div.left-box ul.media-list li.media i.fas {
+    margin-right: 21px;
+    color: #55bdde;
+}
+#pricing
+    section.wrapper
+    article
+    div.left-box
+    ul.media-list
+    li.media
+    div.media-body {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#pricing section.wrapper article div.left-box a.button {
+    background-color: rgb(84, 189, 218);
+    border: none;
+    color: white;
+    width: 39%;
+    padding: 9px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 32px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 88px;
+    bottom: -14px;
+}
+#pricing section.wrapper article div.mid-box {
+    width: 330px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+}
+#pricing section.wrapper article div.mid-box h5 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 31px;
+}
+#pricing section.wrapper article div.mid-box p {
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom: 21px;
+    text-transform: capitalize;
+}
+#pricing section.wrapper article div.mid-box hr.line {
+    border-bottom: 1px solid black;
+    width: 180px;
+    margin: 0px auto;
+}
+#pricing section.wrapper article div.mid-box div.price {
+    text-align: center;
+    color: #55bdde;
+    margin-top: 4px;
+}
+#pricing section.wrapper article div.mid-box div.price span.dollar {
+    font-size: 36px;
+}
+#pricing section.wrapper article div.mid-box div.price span.one {
+    font-size: 60px;
+    font-weight: bold;
+}
+#pricing section.wrapper article div.mid-box div.price span.nine {
+    font-size: 70px;
+    font-weight: bold;
+}
+#pricing section.wrapper article div.mid-box ul.media-list {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+}
+#pricing section.wrapper article div.mid-box ul.media-list li.media {
+    display: flex;
+    justify-content: inherit;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+#pricing section.wrapper article div.mid-box ul.media-list li.media i.fas {
+    margin-right: 21px;
+    color: #55bdde;
+}
+#pricing
+    section.wrapper
+    article
+    div.mid-box
+    ul.media-list
+    li.media
+    div.media-body {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#pricing section.wrapper article div.mid-box a.button {
+    background-color: rgb(84, 189, 218);
+    border: none;
+    color: white;
+    width: 39%;
+    padding: 9px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 32px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 88px;
+    bottom: -14px;
+}
+#pricing section.wrapper article div.right-box {
+    width: 330px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+}
+#pricing section.wrapper article div.right-box h5 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 31px;
+}
+#pricing section.wrapper article div.right-box p {
+    margin-top: 1px;
+    text-align: center;
+    margin-bottom: 21px;
+    text-transform: capitalize;
+}
+#pricing section.wrapper article div.right-box hr.line {
+    border-bottom: 1px solid black;
+    width: 180px;
+    margin: 0px auto;
+}
+#pricing section.wrapper article div.right-box div.price {
+    text-align: center;
+    color: #55bdde;
+    margin-top: 4px;
+}
+#pricing section.wrapper article div.right-box div.price span.dollar {
+    font-size: 36px;
+}
+#pricing section.wrapper article div.right-box div.price span.one {
+    font-size: 64px;
+    font-weight: bold;
+}
+#pricing section.wrapper article div.right-box div.price span.nine {
+    font-size: 64px;
+    font-weight: bold;
+}
+#pricing section.wrapper article div.right-box ul.media-list {
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+}
+#pricing section.wrapper article div.right-box ul.media-list li.media {
+    display: flex;
+    justify-content: inherit;
+    margin-left: 32px;
+    margin-bottom: 10px;
+}
+#pricing section.wrapper article div.right-box ul.media-list li.media i.fas {
+    margin-right: 21px;
+    color: #55bdde;
+}
+#pricing
+    section.wrapper
+    article
+    div.right-box
+    ul.media-list
+    li.media
+    div.media-body {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#pricing section.wrapper article div.right-box a.button {
+    background-color: rgb(84, 189, 218);
+    border: none;
+    color: white;
+    width: 39%;
+    padding: 9px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 32px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 88px;
+    bottom: -14px;
+}
+#form {
+    padding: 100px 0px;
+    background: rgb(250, 251, 253);
+}
+#form section.wrapper {
+}
+#form section.wrapper div.top {
+    display: flex;
+    align-items: center;
+}
+#form section.wrapper div.top div.left {
+}
+#form section.wrapper div.top div.left h2 {
+    font-weight: 800;
+    width: 62%;
+    font-size: 35px;
+    margin-bottom: 24px;
+}
+#form section.wrapper div.top div.left p {
+    width: 66%;
+}
+#form section.wrapper div.top div.left ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#form section.wrapper div.top div.left ul li {
+    display: flex;
+    width: 100%;
+}
+#form section.wrapper div.top div.left ul li i.fas {
+    color: aqua;
+    margin-right: 10px;
+}
+#form section.wrapper div.top div.left ul li p.list {
+    width: 76%;
+    font-size: 15px;
+}
+#form section.wrapper div.top div.left ul li p.list span {
+    font-weight: 800;
+}
+#form { 
+	margin-top: 5%;
+	/* background: #9B9B9B; */
+}
+#form .wrapper { 
+
+}
+#form div.top { 
+	display: flex;
+}
+#form div.top div.left { 
+	width: 100%;
+	padding: 3%;
+}
+#form div.top div.left h2 { 
+	font-size: 30px;
+    font-weight: 700;
+    color: #404040;
+    width: 55%;
+	margin-bottom: 20px;
+}
+#form div.top div.left p { 
+	color: #626262;
+    font-size: 15px;
+    width: 60%;
+	margin-bottom: 20px;
+}
+#form div.top div.left ul { 
+	
+}
+#form div.top div.left ul li {
+	display: flex;
+	align-items: baseline;
+}
+#form div.top div.left ul li .fas { 
+	color: #51bfd8;
+	margin-right: 10px;
+}
+#form div.top div.left ul li p { 
+	font-size: 15px;
+	width: 80%;
+}
+#form div.top div.left ul li p span { 
+	font-weight: bolder;
+}
+#form div.top div.right { 
+	padding: 3%;
+}
+#form div.top div.right form { 
+
+}
+#form div.top div.right form input { 
+	border: 1px solid #c2c2c2;
+	padding: 3% 7%;
+	width: 90%;
+	margin-bottom: 25px;
+	border-radius: 5px;
+}
+#form div.top div.right form #interested_in { 
+	border: 1px solid #c2c2c2;
+	padding: 3% 7%;
+	width: 90%;
+	margin-bottom: 25px;
+}
+#form div.top div.right div.privacy { 
+
+}
+#form div.top div.right div.privacy div.check { 
+	display: flex;
+	align-items: baseline;
+}
+#form div.top div.right div.privacy div.check input { 
+	margin-right: 10px;
+	
+}
+#form div.top div.right div.privacy div.check p { 
+
+}
+#form div.top div.right div.privacy div.check p a.view { 
+	text-decoration: underline;
+}
+#form div.top div.right div.privacy div.check p a.view:hover{
+	color: #51bfd8;
+}
+#form div.top div.right div.privacy a.b {
+	display: inline-block;
+	border: 2px solid #51bfd8;
+	background: #51bfd8;
+	color: #ffff;
+	padding: 12px 24px;
+	border-radius: 30px;
+	margin-top: 3%;
+	width: 90%;
+	text-align: center;
+}
+#form div.top div.right div.privacy a.b:hover{
+	border: 2px solid #51bfd8;
+	background: white;
+	color:#51bfd8;
+}
+#video {
+    padding-top: 65px;
+}
+#video section.wrapper {
+}
+#video section.wrapper h4 {
+    text-align: center;
+    font-size: 34px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+#video section.wrapper section.video-container {
+    position: relative;
+}
+#video section.wrapper section.video-container div.video-img {
+    width: 70%;
+    margin: 0px auto 20px;
+}
+#video section.wrapper section.video-container div.video-img img {
+    display: block;
+    width: 100%;
+}
+#video section.wrapper section.video-container div.play {
+    border-radius: 50%;
+    width: 5%;
+    height: 50px;
+    background: rgb(75, 186, 210);
+    position: absolute;
+    left: 576px;
+    top: 143px;
+}
+#video section.wrapper section.video-container div.play img {
+    display: block;
+    width: 20%;
+    position: absolute;
+    left: 24px;
+    top: 17px;
+}
+#video section.wrapper p {
+    text-align: center;
+    width: 68%;
+    margin: 0px auto;
+}
+#video section.wrapper p span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#team {
+    padding-top: 75px;
+}
+#team h4 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+#team p {
+}
+#team section.tm-container {
+    display: flex;
+}
+#team div.lacy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#team div.lacy div.lacy-img {
+    width: 60%;
+    margin-bottom: 15px;
+}
+#team div.lacy div.lacy-img img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+#team div.lacy p.name {
+    font-weight: 800;
+    text-transform: capitalize;
+}
+#team div.lacy p.designation {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#team div.lacy div.ft {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+#team div.lacy div.ft img {
+    margin-right: 9px;
+    display: block;
+    width: 100%;
+}
+#team div.chris {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#team div.chris div.chris-img {
+    width: 60%;
+    margin-bottom: 15px;
+}
+#team div.chris div.chris-img img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+#team div.chris p.name {
+    font-weight: 800;
+    text-transform: capitalize;
+}
+#team div.chris p.designation {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#team div.chris div.ft {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+#team div.chris div.ft img {
+    width: 100%;
+    display: block;
+    margin-right: 6px;
+}
+#team div.shella {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#team div.shella div.shella-img {
+    width: 60%;
+    margin-bottom: 15px;
+}
+#team div.shella div.shella-img img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+#team div.shella p.name {
+    font-weight: 800;
+    text-transform: capitalize;
+}
+#team div.shella p.designation {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#team div.shella div.ft {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+#team div.shella div.ft img {
+    display: block;
+    width: 100%;
+    margin-right: 6px;
+}
+#team div.mary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#team div.mary div.mary-img {
+    width: 60%;
+    margin-bottom: 15px;
+}
+#team div.mary div.mary-img img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+#team div.mary p.name {
+    font-weight: 800;
+    text-transform: capitalize;
+}
+#team div.mary p.designation {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+#team div.mary div.ft {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+#team div.mary div.ft img {
+    display: block;
+    width: 100%;
+    margin-right: 6px;
+}
+section.footer {
+}
+section.footer section.wrapper {
+}
+section.footer section.wrapper footer {
+    display: flex;
+    padding-top: 80px;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+section.footer section.wrapper footer div.about {
+    width: 46%;
+}
+section.footer section.wrapper footer div.about h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+section.footer section.wrapper footer div.about p {
+    width: 63%;
+}
+section.footer section.wrapper footer div.important {
+    /* display: flex; */ /* flex-direction: column; */
+}
+section.footer section.wrapper footer div.important h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+section.footer section.wrapper footer div.important span.list-one {
+    display: flex;
+    align-items: center;
+}
+section.footer section.wrapper footer div.important span.list-one i {
+    font-size: 9px;
+    color: #55bdde;
+    margin-right: 10px;
+}
+section.footer section.wrapper footer div.important span.list-one p {
+    font-size: 15px;
+}
+section.footer section.wrapper footer div.important list-one list-one p a {
+}
+section.footer section.wrapper footer div.important span.list-two {
+    display: flex;
+    align-items: center;
+    color: aqua;
+    width: 92%;
+}
+section.footer section.wrapper footer div.important span.list-two i {
+    font-size: 9px;
+    margin-right: 8px;
+    color: #55bdde;
+}
+section.footer section.wrapper footer div.important span.list-two p {
+    width: 84%;
+    font-size: 15px;
+    margin-top: 22px;
+}
+section.footer section.wrapper footer div.important list-one list-two p a {
+}
+section.footer section.wrapper footer div.social-media {
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+}
+section.footer section.wrapper footer div.social-media h6 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+section.footer section.wrapper footer div.social-media ul {
+    display: flex; /* justify-content: space-between; */
+}
+section.footer section.wrapper footer div.social-media ul li {
+    width: 14%;
+    margin-right: 10px;
+}
+section.footer section.wrapper footer div.social-media ul li a {
+}
+section.footer section.wrapper footer div.social-media ul li a img {
+    display: block;
+    width: 100%;
+}
+section.footer section.wrapper div.copyright p {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 14px;
+}
+@media all and (max-width: 1280px){
+    #spotlight section.spotlight-container div.team {
+        width: 372px;
+        right: 99px;
+        top: 135px;
+    }
+    #spotlight section.spotlight-container div.left h3{
+        font-size: 53px;
+    }
+    #spotlight section.spotlight-container div.left h4{
+        font-size: 53px;
+    }
+    #spotlight section.spotlight-container div.left p{
+        font-size: 15px;
+    }
+    #spotlight section.spotlight-container div.left a.button {
+        padding: 11px 27px;
+    }
+    
+    #pricing section.wrapper article div.left-box{
+    }
+    #pricing section.wrapper article div.mid-box{
+        margin-right: 26px;
+    }
+    #pricing {
+        padding-bottom: 70px;
+    }
+    #video section.wrapper section.video-container div.play {
+        width: 6%;
+        height: 53px;
+        left: 464px;
+        top: 125px;
+}
+}
+@media all and (max-width: 1080px){
+    #spotlight section.spotlight-container div.left h4{
+        font-size: 51px;
+    }
+    #mid section.wrapper div.boxs{
+        flex-wrap: wrap;
+    }
+    #video section.wrapper section.video-container div.play {
+        left: 421px;
+        top: 102px;
+    }
+    #mid section.wrapper div.boxs div.left {
+        height: 340px;
+        width: 47%;
+        margin-right: 42px;
+        margin-bottom: 40px;
+    }
+    #mid section.wrapper div.boxs div.mid {
+        height: 340px;
+        width: 47%;
+        margin-right: 0;
+    }
+    #mid section.wrapper div.boxs div.right {
+        height: 340px;
+        width: 47%;
+        margin-right: 0;
+    }
+    #design section.wrapper div.top div.right h4{
+        width: 81%;
+    }
+    #design section.wrapper div.top div.right p{
+        width: 64%;
+    }
+    #design section.wrapper div.down div.left h4{
+        font-size: 36px;
+    }
+    #design section.wrapper div.down div.left p{
+        width: 106%;
+    }
+    #form{
+        margin-top: 2%;
+        padding: 41px 0px;
+    }
+    #form section.wrapper div.top div.left h2{
+        width: 81%;
+    }
+    #form section.wrapper div.top div.left p{
+        width: 82%;
+    }
+    #trust div.trust-container {
+        flex-wrap: wrap;
+        width: 81%;
+    }
+    #spotlight section.spotlight-container div.right div.team {
+        width: 249px;
+        right: 45px;
+        top: 135px;
+    }
+    header ul {
+        width: 41%;
+    }
+    #spotlight section.spotlight-container div.left h3{
+        font-size: 45px;
+    }
+    #spotlight section.spotlight-container div.left h4{
+        font-size: 45px;
+    }
+    #design section.wrapper div.top div.right h4{
+        width: 88%;
+        font-size: 36px;
+    }
+    #pricing section.wrapper article{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #pricing section.wrapper article div.left-box{
+    	margin-bottom: 50px;
+    	margin-right: 50px;
+    }
+}
+@media all and (max-width: 980px){
+    header ul{
+        display: none;
+    }
+    #spotlight section.spotlight-container div.team {
+        width: 240px;
+        right: 49px;
+    }
+    #mid section.wrapper div.boxs div.mid{
+        margin-right: 29px;
+    }
+    #video section.wrapper section.video-container div.play {
+        left: 330px;
+        top: 76px;
+    }
+    #design section.wrapper div.top div.right a.button {
+        width: 28%;
+    }
+    #design section.wrapper div.down div.left a.button{
+        width: 42%;
+    }
+    #spotlight section.spotlight-container div.left h3{
+        font-size: 36px;
+    }
+    
+    #spotlight section.spotlight-container div.left h4{
+        font-size: 36px;
+    }
+    #spotlight section.spotlight-container div.left p {
+        width: 47%;
+    }
+    #bg{
+        background-position: right -5px top -17px;
+    }
+    #pricing section.wrapper article div.left-box {
+        margin-right: 0px;
+    }
+    #pricing section.wrapper article div.mid-box{
+        margin-right: 0;
+        margin-bottom: 55px;
+    }
+    #form section.wrapper div.top div.left h2 {
+        width: 100%;
+        font-size: 24px;
+    }
+    #form section.wrapper div.top div.left p{
+        font-size: 100%;
+    }
+    #form section.wrapper div.top div.left ul li p.list {
+        width: 76%;
+        font-size: 14px;
+    }
+    #video section.wrapper section.video-container div.play {
+        width: 7%;
+        height: 39px;
+    }
+    #video section.wrapper section.video-container div.play img {
+            left: 18px;
+            top: 14px;
+    }
+    #video section.wrapper section.video-container div.play {
+        left: 272px;
+        top: 67px;
+    }
+    #video section.wrapper p {
+            width: 65%;
+            font-size: 15px;
+    }
+    section.footer section.wrapper footer{
+        flex-wrap: wrap;
+    }
+    section.footer section.wrapper footer div.about p{
+        width: 88%;
+        font-size: 15px;
+    }
+    section.footer section.wrapper footer div.social-media h6 {
+        font-size: 19px;
+        width: 100%;
+    }
+    section.footer section.wrapper footer div.social-media ul {
+        width: 156px;
+    }
+    #video section.wrapper h4 {
+            font-size: 31px;
+            margin-bottom: 40px;
+    }
+    #video {
+        padding-top: 43px;
+    }
+}
+@media all and (max-width: 640px){
+    #spotlight section.spotlight-container div.team {
+        display: none;
+    }
+    section.footer section.wrapper footer{
+        width: 86%;
+    }
+    section.footer section.wrapper footer div.about {
+        margin-bottom: 30px;
+    } 
+    #bg{
+        background-position: right 0px top -4px;
+    }
+    #pricing section.wrapper article div.left-box {
+        margin-right: 0px;
+    }
+    #spotlight section.spotlight-container div.left {
+        padding-top: 34px;
+    }
+    #spotlight section.spotlight-container div.left p {
+        width: 63%;
+    }
+    #trust {
+        padding-top: 50px;
+    }
+    #trust div.trust-container {
+        width: 97%;
+    }
+    #mid section.wrapper div.boxs div.left{
+        width: 71%;
+        margin-right: 0px;
+    }
+    #mid section.wrapper div.boxs div.mid{
+        width: 71%;
+        margin-right: 0px;
+        margin-bottom: 45px;
+    }
+    #mid section.wrapper div.boxs div.right{
+        width: 71%;
+        margin-right: 0px;
+    }
+    #design section.wrapper div.top{
+        flex-wrap: wrap;
+    }
+    #design section.wrapper div.top div.right h4{
+        font-size: 33px;
+    }
+    #design section.wrapper div.top div.right p{
+        width: 83%;
+    }
+    #design section.wrapper div.top div.left{
+        margin-top: 58px;
+    }
+    #design section.wrapper div.down {
+        flex-direction: column;
+    }
+    #design section.wrapper div.down div.right{
+        width: 70%;
+    }
+    #design section.wrapper div.down div.left {
+        flex-direction: column;
+        width: 96%;
+    }
+    #design section.wrapper div.down div.left h4{
+        font-size: 33px;
+    }
+    #design section.wrapper div.down div.left{
+        margin-top: 40px;
+    }
+    #design section.wrapper div.down div.left p{
+        font-size: 14px;
+    }
+    #design section.wrapper div.top div.right a.button { 
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    #design section.wrapper div.down div.left a.button{
+        font-size: 14px;
+        padding: 10px 15px;
+        width: 28%;
+    }
+    #pricing section.wrapper div.tittle p{
+        width: 83%;
+    }
+    #form section.wrapper div.top{
+        flex-wrap: wrap;
+    }
+    #form section.wrapper div.top div.left h2{
+        width: 80%;
+    }
+    #team section.tm-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #team div.lacy div.lacy-img {
+        width: 50%;
+    }
+    #team div.lacy p.designation{
+        font-size: 14px;
+    }
+    #team div.lacy div.ft{
+        width: 8%;
+    }
+    #team div.chris div.chris-img {
+        width: 50%;
+    }
+    #team div.chris p.designation{
+        font-size: 14px;
+    }
+    #team div.chris div.ft{
+        width: 8%;
+    }
+    #team div.shella div.shella-img {
+        width: 50%;
+    }
+    #team div.shella p.designation{
+        font-size: 14px;
+    }
+    #team div.shella div.ft{
+        width: 8%;
+    }
+    #team div.mary div.mary-img {
+        width: 50%;
+    }
+    #team div.mary p.designation{
+        font-size: 14px;
+    }
+    #team div.mary div.ft{
+        width: 8%;
+    }
+    #team div.lacy{
+        margin-bottom: 25px;
+    }
+    #team div.chris{
+        margin-bottom: 25px;
+    }
+    #team div.shella{
+        margin-bottom: 25px;
+    }
+    #team div.mary{
+        margin-bottom: 25px;
+    }
+    section.footer section.wrapper footer div.about p{
+        width: 129%;
+    }
+    section.footer section.wrapper footer div.social-media {
+        width: 43%;
+        margin-top: 30px;
+    }
+    @media all and (max-width: 480px){
+        #spotlight section.spotlight-container div.left h4{
+            font-size: 33px;
+        }
+        #spotlight section.spotlight-container div.left p{
+            width: 80%;
+        }
+        #bg{
+            background-size: 99%;
+        }
+        #trust div.trust-container{
+            justify-content: center;
+        }
+        #trust div.trust-container{
+            font-size: 27px;
+        }
+        #design section.wrapper div.down div.left p{
+            width: 84%;
+        }
+        #video section.wrapper p{
+            width: 86%;
+            font-size: 14px;
+        }
+        section.footer section.wrapper footer div.about p {
+            width: 100%;
+            font-size: 14px;
+        }
+        #mid section.wrapper div.boxs div.left{
+            width: 80%;
+        }
+        #mid section.wrapper div.boxs div.mid{
+            width: 80%;
+        }
+        #mid section.wrapper div.boxs div.right{
+            width: 80%;
+        }
+}
+@media all and (max-width: 360px){
+    #mid section.wrapper div.boxs div.left{
+        width: 91%;
+    }
+    #mid section.wrapper div.boxs div.mid{
+        width: 91%;
+    }
+    #mid section.wrapper div.boxs div.right{
+        width: 91%;
+    }
+    #design section.wrapper div.top div.right a.button{
+        padding: 8px 8px;
+    }
+    #design section.wrapper div.top div.right p {
+        width: 100%;
+        font-size: 14px;
+    }
+    #design section.wrapper div.down div.left h4{
+        font-size: 25px;
+    }
+    header div.logo h1{
+        width: 41%;
+    }
+    #design section.wrapper div.down div.left a.button{
+        padding: 8px 8px;
+    }
+    section.footer section.wrapper footer div.about p{
+        width: 179%;
+    }  
+}
